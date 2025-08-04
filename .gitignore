@@ -1,2 +1,22 @@
 pass.txt
-backend/.env
+/backend/.env
+
+
+# node_modules and build outputs
+node_modules/
+dist/
+
+# Local env files
+.env
+/backend/.env
+
+# Sensitive files
+pass.txt
+
+# Logs
+*.log
+
+# IDE/editor settings
+.vscode/
+.idea/
+.DS_Store
